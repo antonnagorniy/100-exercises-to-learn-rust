@@ -23,6 +23,13 @@ mod tests {
     use super::*;
 
     #[test]
+    fn test_u32() {
+        let x = 55u32;
+        assert!(x.is_even());
+        assert!(x.is_even());
+    }
+
+    #[test]
     fn test_u32_is_even() {
         assert!(42u32.is_even());
         assert!(!43u32.is_even());
